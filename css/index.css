@@ -248,4 +248,47 @@ button.learn-more{
     border-radius: 12px;
     background: white;
     border: 2px solid black;
+    transition: 0.2s
+}
+
+button.learn-more:hover{
+    width: 130px;
+    padding: 10px;
+    border-radius: 12px;
+    background:black;
+    border: 2px solid white;
+    color: white;
+    transition: 0.2s;
+}
+
+.logo-animation:hover{
+    transform: rotate(-15deg);
+    transform-origin: 50% 50%;
+    transition: 2s;
+    
+}
+
+.logo-animation{
+    transition: 3s;
+}
+
+.header-animation:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+.header-animation{
+    transition: 4s;
+}
+
+header nav a:hover{
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+header nav a{
+    transition: 0.3s;
 }
