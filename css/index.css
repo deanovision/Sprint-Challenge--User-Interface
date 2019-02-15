@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 .header-nav{
@@ -202,4 +203,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* *****ABOUT PAGE STYLING***** */
+
+.header-content{
+    border-bottom: 1px dashed black;
+    padding: 15px 15px;
+    /* margin: 30px 15px; */
+}
+
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.section-1-content{
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    margin: 30px 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.section-1-content h2{
+    margin-top: 15px;
+}
+
+.section-1-content p{
+    margin: 10px 0;
+}
+
+.section-2{
+    margin: 30px 15px;
+    
+}
+
+button.learn-more{
+    width: 130px;
+    padding: 10px;
+    border-radius: 12px;
+    background: white;
+    border: 2px solid black;
 }
